@@ -2,9 +2,10 @@ body {
    /* margin: auto; */
 }
 
-h2 {
+h2, h3 {
    margin: 0;
 }
+
 
 ul {
    list-style: none;
@@ -14,4 +15,9 @@ ul {
 li {
    list-style: none;
    text-decoration: none;
+}
+
+.container {
+   width: 80%;
+   margin: auto;
 }
