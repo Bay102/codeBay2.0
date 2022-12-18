@@ -1,0 +1,21 @@
+body {
+   background-color: rgb(57, 57, 57);
+}
+
+.navbar {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 60%;
+   margin: auto;
+   font-family: copperplate;
+}
+
+.logo {
+   margin-right: auto;
+}
+
+.nav-icon {
+   font-size: 30px;
+   margin: 0 10px;
+}
