@@ -31,20 +31,24 @@
    <section class="hero container">
       <div class="hero-wrapper">
          <div class="text-wrapper">
-             <h2 class="intro">Hi, My Name is Zak Bay <br> Welcome to My Portfolio</h2>
+             <h2 class="intro">Hi, My Name is Zak Bay <br> Welcome to My Portfolio!</h2>
              <h3 class="intro-about">
-               Based in Las Vegas, I’m a full-stack developer passionate about building accessible web apps that users love.
+               Welcome to my coding portfolio! I am a passionate and dedicated developer with a strong foundation 
+               in coding principles and a focus on JavaScript and React. With experience in both of these technologies, 
+               I am skilled at building interactive front-end features and creating efficient and scalable user interfaces. 
+               Thank you for taking the time to review my portfolio and consider me for your development needs.            
              </h3>
-         </div>
-             <div class="profile-image">
-               <img src="" alt="">
-             </div>
-      </div>
-      <div class="contact-hero">
+          <div class="contact-hero">
          <div class="contact-button">
             CONTACT ME
          </div>
+      </div>    
+         </div>
+             <div class="profile-image">
+               <img src="/images/IMG_3285.PNG" alt="">
+             </div>
       </div>
+     
    </section>
 
    <div class="hr"><hr></div>
@@ -81,10 +85,35 @@
 
    <div class="hr"><hr></div>
 
-   <section class="projects"></section>
+   <section class="projects">
+      <section class="services-section">
+
+         <div class="container search-container">
+           <h3>PROJECTS</h3>
+           <!-- <label for="search">
+             <input class="search-input" placeholder="Search..." autocomplete="off" type="text" name="" id="search">
+             <i class="fas fa-search"></i>
+           </label> -->
+         <ul class="portfolio-filter-nav ul-defaults-none">
+           <li data-filter="all" class="filter-link active">All</li>
+           <li data-filter="meet&greet" class="filter-link">Javascript</li>
+           <li data-filter="boarding" class="filter-link">HTML/CSS</li>
+           <li data-filter="training" class="filter-link">REACT</li>
+           <li data-filter="daycare" class="filter-link">API</li>
+           <li data-filter="dropins" class="filter-link">FOR FUN</li>
+         </ul>
+         </div>
+ 
+         <!-- Dynamic Services Tiles -->
+         <div class="services-grid"></div> 
+         <section class="serviceCards"></section>
+
+
+   </section>
    <section class="contact"></section>
 
-
+ <script src="/projects.js"></script>
    <script src="/main.js"></script>
+  
 </body>
 </html>
